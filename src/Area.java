@@ -7,9 +7,9 @@ public class Area {
     private double X;
     private double Y;
     private double radius;
-    public enum GeomFigType {RECTANGLE, CIRCLE};
+    public enum GeomFig {RECTANGLE, CIRCLE};
     public Area(double X, double Y, double radius) {
-        switch (GeomFigType){
+        switch (GeomFig){
             case RECTANGLE:
                 this.X = X;
                 this.Y = Y;
