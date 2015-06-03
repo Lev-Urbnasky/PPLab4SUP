@@ -4,6 +4,17 @@
 public class Surface {
 
     public static double  getFigSurface (GeomFigure figure) {
-        return 0;
+        switch (figure.whatType()) {
+            case SPHERE:
+                return 4 * 3.14 * Math.pow(figure.getLength(), 2);
+            case CONE:
+                return 3.14 * figure.getLength() * figure.getHeigth();
+            case PARALP:
+                return 2 * (figure.getLength() * figure.getWidth()) +
+                        2 * (figure.getLength() * figure.getHeigth()) +
+                        2 * (figure.getWidth() * figure.getHeigth());
+            default:
+                return 0;
+        }
     }
 }

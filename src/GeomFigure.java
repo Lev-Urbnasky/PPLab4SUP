@@ -15,8 +15,6 @@ public class GeomFigure {
                 break;
             case RECTANGLE: gft = _geomFigType;
                 break;
-            case PYRAMIDE:  gft = _geomFigType;
-                break;
             case PARALP:    gft = _geomFigType;
                 break;
             case CONE:      gft = _geomFigType;
@@ -53,8 +51,8 @@ public class GeomFigure {
         this.heigth = heigth;
     }
 
-    public void whatType()  {
-        System.out.println(this.gft.toString());
+    public GeomFigType whatType()  {
+        return this.gft;
     }
 
     /*public static void main (String[] args) {
