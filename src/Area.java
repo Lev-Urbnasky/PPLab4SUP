@@ -12,12 +12,18 @@ public class Area {
         this.Z = Z;
     }
 
-    public double getArea() {
+
+
+    public double getSphereArea() {
+        return X * Y * Z;
+    }
+
+    public double getSquareArea() {
         return X * Y * Z;
     }
 
     public static void main(String[] args) {
         Area area = new Area(11.4, 18.6, 16.7);
-        System.out.println(area.getArea());
+        System.out.println(area.getSquareArea());
     }
 }
