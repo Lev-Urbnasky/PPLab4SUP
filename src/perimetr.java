@@ -4,8 +4,8 @@
 
 public class perimetr {
     private double P;
-    public perimetr() {
-        switch (GeomFigType _geomFigType) {
+    public perimetr(GeomFigType _geomFigType) {
+        switch  (_geomFigType) {
             break;
             case TRIANGLE:
                 P = a+b+c;
