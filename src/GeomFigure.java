@@ -13,8 +13,6 @@ public class GeomFigure {
         switch (_geomFigType) {
             case CIRCLE: gft = _geomFigType;
                 break;
-            case TRIANGLE:  gft = _geomFigType;
-                break;
             case RECTANGLE: gft = _geomFigType;
                 break;
             case PYRAMIDE:  gft = _geomFigType;
@@ -25,7 +23,34 @@ public class GeomFigure {
                 break;
             case SPHERE:    gft = _geomFigType;
                 break;
+            default:        gft = GeomFigType.UNDEF;
+                break;
         }
+
+    }
+
+    public void setLength(double length) {
+        this.length = length;
+    }
+
+    public double getLength() {
+        return this.length;
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public void setWidth(double width) {
+        this.width = width;
+    }
+
+    public double getHeigth() {
+        return heigth;
+    }
+
+    public void setHeigth(double heigth) {
+        this.heigth = heigth;
     }
 
     public void whatType()  {
