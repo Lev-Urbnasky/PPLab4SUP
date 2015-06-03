@@ -1,5 +1,9 @@
 /**
- * Created by Ëåâ on 03.06.2015.
+<<<<<<< Updated upstream
+ * Created by ï¿½ï¿½ï¿½ on 03.06.2015.
+=======
+ * Created by Ğ›ĞµĞ² on 03.06.2015.
+>>>>>>> Stashed changes
  */
 public class Area {
     private double X;
@@ -17,6 +21,12 @@ public class Area {
     public double getSphereArea() {
         return X * Y * Z;
     }
+
+
+    public double getParelpArea() {
+        return X * Y * Z;
+    }
+
 
     public double getSquareArea() {
         return X * Y * Z;
