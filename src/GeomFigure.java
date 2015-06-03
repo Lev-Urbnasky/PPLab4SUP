@@ -57,8 +57,8 @@ public class GeomFigure {
         System.out.println(this.gft.toString());
     }
 
-    public static void main (String[] args) {
+    /*public static void main (String[] args) {
         GeomFigure fig1 = new GeomFigure(GeomFigType.CONE);
         fig1.whatType();
-    }
+    }*/
 }
