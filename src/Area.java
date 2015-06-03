@@ -4,43 +4,20 @@
 
  */
 public class Area {
-    private double X;
-    private double Y;
-    private double radius;
-    public enum GeomFig {RECTANGLE, CIRCLE};
-    public Area(double X, double Y, double radius) {
-        switch (GeomFig){
-            case RECTANGLE:
-                this.X = X;
-                this.Y = Y;
-                break;
-            case CIRCLE:
-                this.radius = radius;
-                break;
+
+
+    public double getArea(GeomFigure figure) {
+        switch(figure.whatType()){
+            case RECTANGLE:   return figure.getHeigth() * figure.getWidth();
+            break;
+            case CIRCLE: return Math.PI * figure.getLength() * figure.getLength();
+            break;
+            default: return 0;
         }
-
     }
-
-
-
-    public double getArea() {
-        switch (GeomFigType){
-            case RECTANGLE:
-               return X * Y;
-                break;
-            case CIRCLE:
-               return Math.PI * radius * radius;
-                break;
-            default:
-                System.out.println("У данной фигуры площадь не считается");
-        }
-        return 0;
-    }
-
-
 
     public static void main(String[] args) {
-        Area area = new Area(11.4, 18.6, 16.7);
+        Area area = new Area(11.4, 18.6, 16.7, CIRCLE);
         System.out.println(area.getArea());
     }
 }
