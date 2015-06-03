@@ -1,9 +1,9 @@
 /**
- * Created by Igor on 03/06/15.
+ * Created by gsom95 on 03/06/15.
  */
 public class Surface {
 
-    public static void main (String[] args) {
-
+    public static double  getFigSurface (GeomFigure figure) {
+        return 0;
     }
 }
