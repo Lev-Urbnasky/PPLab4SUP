@@ -3,20 +3,19 @@
  */
 
 public class perimetr {
-    private double P;
-    public perimetr(GeomFigType _geomFigType) {
-        switch  (_geomFigType) {
-            break;
-            case TRIANGLE:
-                P = a+b+c;
-                break;
-            case RECTANGLE:
-                P = (a+b)*2;
-                break;
-            case PARALP:
-                P = (a+b)*4+(a+c)*4+(b+c)*4;
-                break;
-        }
 
+    public static double  getFigPerimetr (GeomFigure figure) {
+        switch (figure.whatType()) {
+            case RECTANGLE:
+                return (figure.getLength() + figure.getWidth()) * 2;
+            case CIRCLE:
+                return 2 * Math.PI * figure.getLength();
+            case PARALP:
+                return figure.getLength() * 4 +
+                        figure.getWidth() * 4 +
+                        figure.getHeigth() * 4;
+            default:
+                return 0;
+        }
     }
 }
