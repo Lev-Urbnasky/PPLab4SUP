@@ -64,16 +64,16 @@ public class AppClass {
                 figure.setLength(scanner.nextDouble());
                 System.out.print("Введите ширину: ");
                 figure.setWidth(scanner.nextDouble());
-                /* TODO для периметра и площади */
+                /* TODO для периметра */
                 //System.out.println("Периметр: " + ...);
-                //System.out.println("Площадь: " + ...);
+                System.out.println("Площадь: " + Area.getFigArea(figure));
                 break;
             case CIRCLE:
                 System.out.print("Введите радиус круга: ");
                 figure.setLength(scanner.nextDouble());
-                /* TODO для периметра (длины окружности)  и площади */
+                /* TODO для периметра (длины окружности)*/
                 //System.out.println("Периметр: " + ...);
-                //System.out.println("Площадь: " + ...);
+                System.out.println("Площадь: " + Area.getFigArea(figure));
                 break;
         }
 
