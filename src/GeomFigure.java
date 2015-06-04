@@ -1,5 +1,5 @@
-/**
- * Created by gsom95 on 03/06/15.
+/*
+    PPLab4SUP
  */
 public class GeomFigure {
 
@@ -56,8 +56,4 @@ public class GeomFigure {
     }
 
     public void setGFType(GeomFigType gft) { this.gft = gft;}
-    /*public static void main (String[] args) {
-        GeomFigure fig1 = new GeomFigure(GeomFigType.CONE);
-        fig1.whatType();
-    }*/
 }

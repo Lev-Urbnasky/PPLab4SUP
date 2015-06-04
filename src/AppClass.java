@@ -1,3 +1,6 @@
+/*
+    PPLab4SUP
+ */
 import java.util.Scanner;
 
 public class AppClass {
@@ -56,23 +59,20 @@ public class AppClass {
                 System.out.print("Введите высоту: ");
                 figure.setHeigth(scanner.nextDouble());
                 System.out.println("Площадь поверхности: " + Surface.getFigSurface(figure));
-                /* TODO для периметра */
-                //System.out.println("Периметр: " + ...);
+                System.out.println("Периметр: " + perimetr.getFigPerimetr(figure));
                 break;
             case RECTANGLE:
                 System.out.print("Введите длину: ");
                 figure.setLength(scanner.nextDouble());
                 System.out.print("Введите ширину: ");
                 figure.setWidth(scanner.nextDouble());
-                /* TODO для периметра */
-                //System.out.println("Периметр: " + ...);
+                System.out.println("Периметр: " + perimetr.getFigPerimetr(figure));
                 System.out.println("Площадь: " + Area.getFigArea(figure));
                 break;
             case CIRCLE:
                 System.out.print("Введите радиус круга: ");
                 figure.setLength(scanner.nextDouble());
-                /* TODO для периметра (длины окружности)*/
-                //System.out.println("Периметр: " + ...);
+                System.out.println("Периметр: " + perimetr.getFigPerimetr(figure));
                 System.out.println("Площадь: " + Area.getFigArea(figure));
                 break;
         }

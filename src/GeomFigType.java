@@ -1,5 +1,5 @@
-/**
- * Created by gsom95 on 03/06/15.
+/*
+    PPLab4SUP
  */
 public enum GeomFigType {
     SPHERE, CONE, PARALP, RECTANGLE, CIRCLE, UNDEF

@@ -1,14 +1,12 @@
-/**
-
- * Created by Лев on 03.06.2015.
-
+/*
+    PPLab4SUP
  */
 public class Area {
 
     public static double  getFigArea (GeomFigure figure) {
         switch (figure.whatType()) {
             case RECTANGLE:
-                return figure.getHeigth() * figure.getWidth();
+                return figure.getLength() * figure.getWidth();
             case CIRCLE:
                 return Math.PI * Math.pow(figure.getLength(), 2);
             default:
