@@ -1,6 +1,7 @@
 /**
- * Created by gsom95 on 03/06/15.
- */
+*    PPLab4SUP
+*    Created by Sapozhnikov, Urbansky, Panjushev
+   */
 public class Surface {
 
     public static double  getFigSurface (GeomFigure figure) {

@@ -1,5 +1,6 @@
-/*
-    PPLab4SUP
+/**
+ *    PPLab4SUP
+ *    Created by Sapozhnikov, Urbansky, Panjushev
  */
 import java.util.Scanner;
 

@@ -1,5 +1,6 @@
 /**
- * Created by Student on 03.06.2015.
+ *    PPLab4SUP
+ *    Created by Sapozhnikov, Urbansky, Panjushev
  */
 
 public class perimetr {
