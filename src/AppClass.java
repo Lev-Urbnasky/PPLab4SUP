@@ -60,20 +60,20 @@ public class AppClass {
                 System.out.print("Введите высоту: ");
                 figure.setHeigth(scanner.nextDouble());
                 System.out.println("Площадь поверхности: " + Surface.getFigSurface(figure));
-                System.out.println("Периметр: " + perimetr.getFigPerimetr(figure));
+                System.out.println("Периметр: " + Perimetr.getFigPerimetr(figure));
                 break;
             case RECTANGLE:
                 System.out.print("Введите длину: ");
                 figure.setLength(scanner.nextDouble());
                 System.out.print("Введите ширину: ");
                 figure.setWidth(scanner.nextDouble());
-                System.out.println("Периметр: " + perimetr.getFigPerimetr(figure));
+                System.out.println("Периметр: " + Perimetr.getFigPerimetr(figure));
                 System.out.println("Площадь: " + Area.getFigArea(figure));
                 break;
             case CIRCLE:
                 System.out.print("Введите радиус круга: ");
                 figure.setLength(scanner.nextDouble());
-                System.out.println("Периметр: " + perimetr.getFigPerimetr(figure));
+                System.out.println("Периметр: " + Perimetr.getFigPerimetr(figure));
                 System.out.println("Площадь: " + Area.getFigArea(figure));
                 break;
         }
