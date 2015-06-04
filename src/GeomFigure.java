@@ -55,6 +55,7 @@ public class GeomFigure {
         return this.gft;
     }
 
+    public void setGFType(GeomFigType gft) { this.gft = gft;}
     /*public static void main (String[] args) {
         GeomFigure fig1 = new GeomFigure(GeomFigType.CONE);
         fig1.whatType();
