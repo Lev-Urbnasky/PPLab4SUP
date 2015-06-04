@@ -2,7 +2,7 @@
  * Created by Student on 03.06.2015.
  */
 
-public class perimetr {
+public class Perimetr {
     private double P;
     public perimetr(GeomFigType _geomFigType) {
         switch  (_geomFigType) {
