@@ -3,7 +3,7 @@
  *    Created by Sapozhnikov, Urbansky, Panjushev
  */
 
-public class perimetr {
+public class Perimetr {
 
     public static double  getFigPerimetr (GeomFigure figure) {
         switch (figure.whatType()) {
